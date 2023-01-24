@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title>PORTAFOLIO CV</title>
+   <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Gabriel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu"> 
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>  
+     <!--SECCION INICIO-->
+     <section id="inicio" class="inicio"> 
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="IMG_9075.jpg" alt="">
+            </div>
+            <h1>FLORES GABRIEL</h1>
+            <h2>DESARROLLO WEB</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            
+        </div>
+     </section>
+     <!--SECCION SOBRE MI-->
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Soy una persona dispuesta al aprendizaje de nuevas herramientas que permitan optimizar mi desempeño. Aportando mis conocimeintos y formacion para alcanzar los objetivos propuestos.
+            Objetivos: Mi interes es obtener un empleo que me permita desarrollar los conocimientos adquiridos del cursado en desarrollo web, crecer personal y profesionalmente.
+            </span>
+            </p>
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento:</strong>
+                                03/06/1996
+                        </li>
+                        <li>
+                            <strong>Edad:</strong>
+                                26 años
+                        </li>
+                        <li>
+                            <strong>Celular:</strong>
+                                2622-352907
+                        </li>
+                        <li>
+                            <strong>E-mail:</strong>
+                                gabrielzangrandi29@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion:</strong> 
+                                Ruta 40 km 50 Anchoris-Mza-Argentina
+                        </li>
+
+                    </ul>
+                </div>
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses:</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>ESCUCHAR MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-brands fa-avianex"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        
+                        
+                    </div>      
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+     </section>
+     <!--SECCION CURRICULUM-->
+                    <section id="curriculum" class="curriculum">
+                    <div class="contenido-seccion">
+                    <h2>Curriculum</h2>
+                 <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Fabrica A.V.A</h4>
+                        <span class="casa">Operario especializado</span>
+                        <span class="fecha">2018-2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Administrativo en PROCAT S.A</h4>
+                        <span class="casa">Administrativo</span>
+                        <span class="fecha">2021-2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="col izquierda">
+                        <h3>Estudios</h3>
+                        <div class="item izq">
+                            <h4>IES 9-029</h4>
+                            <span class="casa">Tec. en preceptoria escolar</span>
+                            <span class="fecha">2014-2017</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Instituto NEWTON</h4>
+                            <span class="casa">Electricista industrial y domiciliario</span>
+                            <span class="fecha">2021-2022</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        <div class="item izq">
+                            <h4>Argentina programa 4.0</h4>
+                            <span class="casa">Introduccion front end</span>
+                            <span class="fecha">2023-2023</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                </div>
+            </div>
+        </div>
+
+     </section>
+     <!--SECCION CONTACTO-->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!---Formulario-->
+             <div class="col">
+                <input type="text" placeholder="Tu nombre">
+                <input type="text" placeholder="Numero de celular">
+                <input type="text" placeholder="Direccion de correo">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+             </div>
+            <!--MAPA-->
+            <div class="col">
+                <img src="Archivo_000.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Ruta 40 km 50, Anchoris-Tupungato Mza
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile"></i>
+                            2622-352907
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            gabrielzangrandi29@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div> 
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
